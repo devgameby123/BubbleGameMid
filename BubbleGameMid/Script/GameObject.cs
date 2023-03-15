@@ -11,7 +11,7 @@ using Vector2 = System.Numerics.Vector2;
 
 namespace BubbleGameMid.Script {
     internal class GameObject : ICloneable {
-        protected Texture2D _texture;
+        public Texture2D _texture;
         protected float _rotation;
         protected KeyboardState currenkey;
         protected KeyboardState previonsKey;
@@ -34,12 +34,14 @@ namespace BubbleGameMid.Script {
             Origin = new Vector2(_texture.Width/2, _texture.Height/2);
         }
 
-        public virtual void update(GameTime gameTime,List<GameObject> gameobject) {
+       
+        public virtual void update(GameTime gameTime, List<GameObject> gameobject, int[,] table) {
 
         }
         public virtual void draw(SpriteBatch spriteBatch) {
             spriteBatch.Draw(_texture,Position,null, _color, _rotation,Origin,1,SpriteEffects.None,0);
         }
+        public virtual void start() { }
 
         public object Clone() {
             return MemberwiseClone();
