@@ -42,10 +42,7 @@ namespace BubbleGameMid.Script {
             }
 
         }
-
-
         private void Addbullet(List<GameObject> gameobject) {
-
             _bullet.Direction = this.Direction;
             _bullet.Position = this.Position;
             _bullet.LinearVelocity = 5f;
@@ -61,7 +58,6 @@ namespace BubbleGameMid.Script {
                 int randomNumber = random.Next(1, bullet.Count);
                 _bullet = bullet[randomNumber].Clone() as Bullet;
             }
-
         }
         public override void draw(SpriteBatch spriteBatch) {
             base.draw(spriteBatch);

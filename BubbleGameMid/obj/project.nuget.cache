@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "uBpdGyLhU9tEb2Q6nQ2tTGYNgs609dm3cvm+oGznS3DMKn+26uD6jDcaOb/CHJC2+L3D+UTClquHl9a2RvcMVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\BwiBO\\Documents\\Project\\KMITL\\Game\\BubbleGameMid\\BubbleGameMid\\BubbleGameMid.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BwiBO\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\BwiBO\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/../../../../../../../Downloads/Arrow.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/../../../../../../../Downloads/Background.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/../../../../../../../Downloads/Table.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/ball.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/ball1.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/ball2.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/ball3.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/ball4.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/ball5.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/ball6.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/ball7.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/bubbleGun.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/EndFont.spritefont</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/EndLine.png</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/Font.spritefont</File>
+    <File>C:/Users/BwiBO/Documents/Project/KMITL/Game/BubbleGameMid/BubbleGameMid/Content/Untitled-1.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File>Arrow.png</File>
+    <File>Background.png</File>
+    <File>Table.png</File>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>bubbleball.png</File>
+  </DestFiles>
+</SourceFileCollection>

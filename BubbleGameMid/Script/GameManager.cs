@@ -14,15 +14,11 @@ namespace BubbleGameMid.Script {
         public void Draw(SpriteBatch spriteBatch, SpriteFont font) {
             spriteBatch.DrawString(font, "Score: " + Score, new Vector2(1000, 400), Microsoft.Xna.Framework.Color.AliceBlue);
         }
-
         public static void pustPoint(int p) {
             if (timeLimit <= 0) {
                 Score += 10;
                 timeLimit = 1 * 60;
             }
-
-
-
         }
 
     }

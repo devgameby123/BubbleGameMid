@@ -29,16 +29,12 @@ namespace BubbleGameMid.Script {
             _texture = texture;
             Origin = new Vector2(_texture.Width / 2, _texture.Height / 2);
         }
-
-
         public virtual void update(GameTime gameTime, List<GameObject> gameobject, GameObject[,] table) {
-
         }
         public virtual void draw(SpriteBatch spriteBatch) {
             spriteBatch.Draw(_texture, Position, null, _color, _rotation, Origin, 1, SpriteEffects.None, 0);
         }
         public virtual void start() { }
-
         public object Clone() {
             return MemberwiseClone();
         }
