@@ -3,10 +3,6 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 using Vector2 = System.Numerics.Vector2;
 
 namespace BubbleGameMid.Script {
@@ -31,15 +27,15 @@ namespace BubbleGameMid.Script {
 
         public GameObject(Texture2D texture) {
             _texture = texture;
-            Origin = new Vector2(_texture.Width/2, _texture.Height/2);
+            Origin = new Vector2(_texture.Width / 2, _texture.Height / 2);
         }
 
-       
-        public virtual void update(GameTime gameTime, List<GameObject> gameobject, int[,] table) {
+
+        public virtual void update(GameTime gameTime, List<GameObject> gameobject, GameObject[,] table) {
 
         }
         public virtual void draw(SpriteBatch spriteBatch) {
-            spriteBatch.Draw(_texture,Position,null, _color, _rotation,Origin,1,SpriteEffects.None,0);
+            spriteBatch.Draw(_texture, Position, null, _color, _rotation, Origin, 1, SpriteEffects.None, 0);
         }
         public virtual void start() { }
 
